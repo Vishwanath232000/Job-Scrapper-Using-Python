@@ -27,6 +27,7 @@ By default, the script connects to a MongoDB database named cedars_sinai_jobs an
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["cedars_sinai_jobs"]
 table = db["job_scrapping"]
+
 5. Run the Script
 After setting up the dependencies and MongoDB, you can run the script using:
 python job_scraper.py

@@ -16,7 +16,10 @@ except pymongo.errors.PyMongoError as e:
 
 
 #   Search URL and headers
-search_url = "https://careers.cshs.org/search-jobs"
+search_url = "https://careers.cshs.org/search-jobs?utm_source=google.com&utm_medium=paid_search&utm_campaign=Healthcare_Jobs&utm_content=search_engine&utm_term=343201292&ss=paid&gad_source=1&gclid=CjwKCAiAk8G9BhA0EiwAOQxmfr-pO26RLmIiTENJCSCal6S-R11SBlss1_ZwbWcX1ks8FQlj-dX9jBoCSAwQAvD_BwE"
+# Use below url if given above does not work
+# search_url = "https://careers.cshs.org/search-jobs"
+
 base_url = "https://careers.cshs.org"
 headers = {"User-Agent": "Mozilla/5.0"}
 

@@ -1,12 +1,13 @@
 This Python script scrapes job listings from the Cedars-Sinai Careers website, extracts job details (title, department, location, responsibilities, and qualifications), and stores them in a MongoDB database.
 
-Prerequisites
+Prerequisites:
 To run this script, you need:
-
 Python 3
 MongoDB running locally or a remote MongoDB instance
 Required Python packages: requests, beautifulsoup4, and pymongo
-Setup
+
+
+Setup:
 1. Clone the Repository
 Clone this repository to your local machine.
 git@github.com:Vishwanath232000/Job-Scrapper-Using-Python.git
